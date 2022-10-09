@@ -3,13 +3,12 @@ import logoPic from '../../statics/logo.png';
 
 export const HeaderWrapper = styled.div`
   position: relative;
+  z-index: 1;
   height: 58px;
   border-bottom: 1px solid #f0f0f0;
 `;
 
-export const Logo = styled.a.attrs({
-  href: '/'
-})`
+export const Logo = styled.div`
   position: absolute;
   top: 0;
   left: 0;
